@@ -129,7 +129,7 @@
      /* width: auto; */
      margin: 0 auto;
      height: 45px;
-     background-image:url('/imgs/ret-ngulo-arredondado-1755.png');
+     background-image:url('/arquivos/ret-ngulo-arredondado-1755.png');
      background-position: 50% 50%;
      /* background-size: auto; */
    }
@@ -187,7 +187,7 @@
        }
      .header .logo{
        text-align: center;
-       background-image:url('/imgs/logo-h-2-o-branco.png');
+       background-image:url('/arquivos/logo-h-2-o-branco.png');
        background-repeat: no-repeat;
        margin-left: 110px;
        width: 94px;
@@ -203,7 +203,7 @@
 
      .header .mini-cart{
        position: relative;
-       background-image:url('/imgs/shopping-cart-1.png');
+       background-image:url('/arquivos/shopping-cart-1.png');
        background-repeat: no-repeat;
        width: 35px;
        height: 35px;
@@ -390,7 +390,7 @@
 
 
      /* .sing-in .btn-group .btn-login span {
-      background-image: url("/imgs/square-speech-bubbles.png");
+      background-image: url("/arquivos/square-speech-bubbles.png");
       background-repeat: no-repeat;
     } */
 
@@ -398,7 +398,7 @@
       margin-left: 74px;
     }
      .sing-in .btn-group .btn-login span {
-       background-image: url("/imgs/square-speech-bubbles.png");
+       background-image: url("/arquivos/square-speech-bubbles.png");
        background-repeat: no-repeat;
        color: transparent;
        width: auto;
@@ -408,7 +408,7 @@
      }
 
      .sing-in .btn-group .btn-orders span {
-      background-image: url("/imgs/user-3.png");
+      background-image: url("/arquivos/user-3.png");
       background-repeat: no-repeat;
       color: transparent;
       width: auto;
@@ -450,13 +450,13 @@
       } */
 
       /* #top-menu .container .menu .menu-test-category a::before {
-        content: url("/imgs/menu-hamburger.png");
+        content: url("/arquivos/menu-hamburger.png");
         width: 24px;
         height: 17px;
       } */
 
       #top-menu .container .menu .menu-test-category a::after {
-        content: url("/imgs/down-arrow.png");
+        content: url("/arquivos/down-arrow.png");
         margin-left: 15px;
         width: 16px;
         height: 8px;
@@ -467,7 +467,7 @@
       } */
 
       #top-menu .container .menu .menu-men a::before {
-        content: url("/imgs/water-filter.png");
+        content: url("/arquivos/water-filter.png");
         width: 21px;
         height: 21px;
         /* margin: 15px;
@@ -480,7 +480,7 @@
       }
 
       #top-menu .container .menu .menu-teste-de-atributos-2 a::before {
-        content: url("/imgs/purificador.png");
+        content: url("/arquivos/purificador.png");
         width: 19px;
         height: 22px;
         /* margin: 15px;
@@ -489,7 +489,7 @@
       }
 
       #top-menu .container .menu .menu-hardware a::before {
-        content: url("/imgs/tap.png");
+        content: url("/arquivos/tap.png");
         width: 20px;
         height: 20px;
         /* margin: 15px;
@@ -516,7 +516,7 @@
       }
 
       .sing-in .btn-group .btn-orders::after {
-        background-image: url("/imgs/down-arrow.png");
+        background-image: url("/arquivos/down-arrow.png");
         background-repeat: no-repeat;
         color: black;
       }
@@ -678,7 +678,7 @@
 
          .sing-in .btn-group .btn-orders::after {
            display: block!important;
-           background-image: url("/imgs/user-3.png");
+           background-image: url("/arquivos/user-3.png");
            background-repeat: no-repeat;
            width: 35px;
            height: 35px;
@@ -686,7 +686,7 @@
          /* Mostra o User-3.png */
          .sing-in .btn-group .btn-orders span {
            display: block!important;
-           background-image: url("/imgs/user-3.png");
+           background-image: url("/arquivos/user-3.png");
             background-repeat: no-repeat;
             color: transparent;
             width: auto;
@@ -726,7 +726,7 @@
         width: 10%; /* 15% */
         margin-left: -45px; /* -90px */
         border: transparent;
-        background-image: url("/imgs/lupa-copiar.png");
+        background-image: url("/arquivos/lupa-copiar.png");
         background-repeat: no-repeat;
         color: transparent;
       }
@@ -2356,7 +2356,7 @@
     .header .search .btn-buscar{
       
       border: transparent;
-      background-image: url("/imgs/lupa-copiar.png");
+      background-image: url("/arquivos/lupa-copiar.png");
       background-repeat: no-repeat;
     }
 
@@ -2379,7 +2379,7 @@
     } */
 
     .header .mini-cart::after { 
-      background-image: url("/imgs/user-3.png");
+      background-image: url("/arquivos/user-3.png");
       background-repeat: no-repeat;
       width: 40px;
       height: 40px;
@@ -2388,7 +2388,7 @@
     }
 
     .sing-in .btn-group .btn-orders span::after {
-      background-image: url("/imgs/user-3.png");
+      background-image: url("/arquivos/user-3.png");
       width: auto;
       height: 40px;
       margin-top: -40px;
@@ -2434,7 +2434,7 @@
   }
 
   .sing-in .btn-group .btn-orders::after {
-    background-image: url("/imgs/user-3.png");
+    background-image: url("/arquivos/user-3.png");
     background-repeat: no-repeat;
   } */
 
@@ -2533,7 +2533,7 @@
    .header .search .btn-buscar{
       
       border: transparent;
-      background-image: url("/imgs/lupa-copiar.png");
+      background-image: url("/arquivos/lupa-copiar.png");
       background-repeat: no-repeat;
       color: transparent;
     }
@@ -2587,7 +2587,7 @@
      margin-top: 11px;
      margin-left: -45px; /* -90px */
      border: transparent;
-     background-image: url("/imgs/lupa-copiar.png");
+     background-image: url("/arquivos/lupa-copiar.png");
      background-repeat: no-repeat;
      color: transparent;
    }

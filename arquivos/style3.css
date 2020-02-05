@@ -43,8 +43,9 @@
  }
  
  .teste.jefferson.lopo div#vtex-callcenter {
-   display: none;
- }
+    display: none;
+  }
+ 
 
  .header .search .fulltext-search-box {
    text-indent: 42px;
@@ -383,6 +384,40 @@
          height: 52px;
      }
 
+     .menu_hamburguer {
+       background: #FFF;
+       border-radius: 50%;
+       width: 60px;
+       position: fixed;
+       bottom: 25px;
+       right: 25px;
+     }
+
+     .tiras-hamburg {
+       position: relative;
+       display: block;
+       background: #000;
+       width: 30px;
+       height: 2px;
+       top: 29px;
+       left: 15px;
+     }
+
+     .tiras-hamburg::before, .tiras-hamburg::after {
+       background: #000;
+       content: '';
+       display: block;
+       width: 100%;
+       height: 100%;
+       position: absolute;
+     }
+     .tiras-hamburg::before {
+       top: -10px;
+     }
+     .tiras-hamburg::after {
+       bottom: -10px;
+     }
+
      .header-container .header .container {
       width: 100%;
       margin-left: 110pxs;
@@ -422,6 +457,10 @@
       width: auto;
       height: 3px;
       background-color: #f6b428;
+    }
+
+    #top-menu .container .menu .menu-test-category::before {
+      
     }
 
      #top-menu .container .menu .menu-test-category a {
@@ -551,7 +590,14 @@
            line-height: 26px;
        }
        #top-menu .menu li:hover a{
-           background-color: #e7e7e7;
+           /* background-color: #e7e7e7; */
+           /* transform: scale(1.2) rotate(-5deg);
+           background-color: rgba(201, 201, 201, 0.8);
+            box-shadow: 0 0 5px #333;
+            transition: 0.7s; */
+            box-shadow: 0 0 5px #333;
+            transition: box-shadow 0.7s;
+            /* transform: rotate(-30deg) scale(0.4); */
        }
 
        
@@ -1640,7 +1686,7 @@
      }
  
  .navigation-tabs{
-   background: url("/arquivos/loader-admake-filter.gif") no-repeat scroll center transparent;
+   background: url("/imgs/loader-admake-filter.gif") no-repeat scroll center transparent;
    min-height: 100px;
    width: 100%;
  }
